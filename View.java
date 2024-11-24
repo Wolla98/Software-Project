@@ -419,7 +419,7 @@ public class View extends JFrame {
         timerPanel.addKeyListener(controller);
         // System.out.println("This only prints once");
         // Startup and Game Timer logic
-        final int[] secondsRemaining = {5}; // Initial 30 seconds for startup
+        final int[] secondsRemaining = {30}; // Initial 30 seconds for startup
         gameTimer = new javax.swing.Timer(1000, new ActionListener() {
             boolean isStartupPhase = true;
 
